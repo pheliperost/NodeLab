@@ -11,5 +11,8 @@ app.use("/people", PeopleRoutes);
 
 //Establish the server connection
 //PORT ENVIRONMENT VARIABLE
-const port = process.env.PORT || 8080;
+//const port = process.env.PORT || 8080;
+const port = process.env.PORT  || 3000;
+//app.listen(port, () => console.log(`Listening on port ${port}..`));
+
 app.listen(port, () => console.log(`Listening on port ${port}..`));
